@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('see content') {
+      steps {
+        sh 'ls'
+      }
+    }
+
   }
 }
